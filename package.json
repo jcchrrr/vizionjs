@@ -1,0 +1,19 @@
+{
+  "name": "vizionjs",
+  "version": "1.0.2",
+  "description": "A tool to visualize the dependencies of a JS/TS project.",
+  "bin": {
+    "vizionjs": "./cli.js"
+  },
+  "scripts": {
+    "start": "node cli.js"
+  },
+  "keywords": [],
+  "author": "jcchrrr",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/parser": "^7.23.0",
+    "@babel/preset-typescript": "^7.23.2",
+    "express": "^4.18.2"
+  }
+}
